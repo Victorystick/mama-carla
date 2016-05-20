@@ -1,0 +1,23 @@
+{
+  "name": "mama-carla",
+  "version": "0.1.0",
+  "description": "An incremental parser library",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rollup -c rollup.test.js",
+    "test": "mocha",
+    "test:watch": "watch 'npm test' code"
+  },
+  "keywords": [
+    "parser",
+    "incremental",
+    "library"
+  ],
+  "author": "Oskar Segersvärd",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "rollup": "^0.25.4",
+    "watch": "^0.17.1"
+  }
+}
